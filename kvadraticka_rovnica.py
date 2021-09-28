@@ -9,11 +9,11 @@ if d > 0:
     d = math.sqrt(d)
     x1 = (-b + d)/(2*a)
     x2 = (-b - d)/(2*a)
-    print("Korene kvadratickej rovnice sú:", x1, ",", x2)
+    print("Korene kvadratickej rovnice sú:", int(x1), ",", int(x2))
 elif d == 0:
     x1 = (-b + d)/(2*a)
     x2 = (-b - d)/(2*a)
-    print("Koreň kvadratickej rovnice je:", x1, ",", x2)
+    print("Koreň kvadratickej rovnice je:", int(x1), ",", int(x2))
 elif d < 0:
     print("Rovnica má dve rôzne komplexné korene.")
 else:
